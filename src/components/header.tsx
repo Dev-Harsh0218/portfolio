@@ -2,8 +2,6 @@
 import React from 'react'
 import {motion} from "framer-motion";
 import {links} from '@/lib/data';
-import { linkSync } from 'fs';
-import { li } from 'framer-motion/client';
 import Link from 'next/link';
 
 const Header = () => {

@@ -25,10 +25,11 @@ export const links =[
     },
 ] as const
 
-export const images=[
+export const projectsData =[
     {
-        section:"intro",
-        name:"main_circle_image",
-        src:"@/images/intro-main-image.jpg",
+        title:"LinkTester",
+        description:"",
+        tags:["",""],
+        imageUrl:"",
     }
 ] as const

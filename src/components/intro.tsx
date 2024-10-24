@@ -20,28 +20,26 @@ const Intro = () => {
                     className="text-4xl absolute -bottom-1 left-0">👋</motion.span>
             </div>
         </div>
-        <motion.p initial={{opacity:0,y:100}} animate={{opacity:1,y:0}}  
+        <motion.h1 initial={{opacity:0,y:100}} animate={{opacity:1,y:0}}  
           className='mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl'>
             <span className="font-bold">Hello, I'm Harsh Bhardwaj.</span> I'm a{" "}
             <span className="font-bold">full-stack developer</span> with{" "}
             <span className="font-bold">6 month</span> of experience. I enjoy
             building <span className="italic">sites & apps</span>. I m Currently focused in{" "}
             <span className="underline">Aws and other cloud platforms</span>.
-        </motion.p>
+        </motion.h1>
         
         <motion.div initial={{opacity:0,y:100}} animate={{opacity:1,y:0}} transition={{delay:0.2}}
           className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium">
-            <Link href="" 
-               className="group flex items-center gap-2 bg-gray-900 text-white px-7 py-3 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition">
+            <Link href="#contact" 
+               className="group flex items-center gap-2 bg-gray-900 text-white px-7 py-3 rounded-full outline-none focus:scale-110 hover:scale-110  hover:bg-gray-950 active:scale-105 transition">
                Contact me here <BsArrowRight className='opacity-70 group-hover:translate-x-1 transition'/>
             </Link>
-            <a href="" className="flex items-center gap-2 bg-white px-7 py-3 rounded-full group outline-none focus:scale-110 hover:scale-110 active:scale-105 transition">Download CV <HiDownload className='opacity-60 group-hover:translate-x-1 transition'/></a>
-            <a href="" className="flex items-center gap-2 bg-white text-gray-700 p-4 rounded-full"><BsLinkedin/></a>
-            <a href="" className="flex items-center gap-2 bg-white text-gray-700 p-4 rounded-full"><BsGithub/></a>
-            <a href="" className="flex items-center gap-2 bg-white text-gray-700 p-4 rounded-full"><BsInstagram/></a>
+            <a href="" className="flex items-center gap-2 bg-white px-7 py-3 rounded-full group outline-none focus:scale-110 hover:scale-110 active:scale-105 transition border border-black/10">Download CV <HiDownload className='opacity-60 group-hover:translate-y-1 transition'/></a>
+            <a href="" className="flex items-center gap-2 bg-white text-gray-700 p-4 rounded-full focus:scale-110 hover:scale-110 active:scale-105 transition hover:text-gray-950 border border-black/10"><BsLinkedin/></a>
+            <a href="" className="flex items-center gap-2 bg-white text-gray-700 p-4 rounded-full focus:scale-110 hover:scale-110 active:scale-105 transition hover:text-gray-950 border border-black/10"><BsGithub/></a>
+            <a href="" className="flex items-center gap-2 bg-white text-gray-700 p-4 rounded-full focus:scale-110 hover:scale-110 active:scale-105 transition hover:text-gray-950 border border-black/10"><BsInstagram/></a>
         </motion.div>
-
-
     </section>
   )
 }
